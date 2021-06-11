@@ -6,6 +6,7 @@ namespace Help_Lone
 {
     public interface iMagicMove
     {
+        //this interface implements magic movement
         void Teleport(int x, int y);
     }
 }

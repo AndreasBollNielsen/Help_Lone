@@ -6,6 +6,7 @@ namespace Help_Lone
 {
     class Wizard : ICharacter,iMagicMove,IMagicCombat
     {
+        //this class implements interfaces for wizard abilities and basic abilities
         public void Die()
         {
             Console.WriteLine("I'm dying");
